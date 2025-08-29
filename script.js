@@ -37,4 +37,13 @@ document.addEventListener('DOMContentLoaded', function() {
             }, index * 150);
         });
     }, 900);
+    
+    // 버튼 클릭 이벤트
+    document.querySelector('.teacher-btn').addEventListener('click', function() {
+        window.open('https://he75.aidt.me/demos?id=W9z60U3s9NI&user_type=teacher', '_blank');
+    });
+    
+    document.querySelector('.student-btn').addEventListener('click', function() {
+        window.open('https://he75.aidt.me/demos?id=W9z60U3s9NI&user_type=student', '_blank');
+    });
 });
